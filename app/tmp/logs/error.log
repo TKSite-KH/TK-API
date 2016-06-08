@@ -1,0 +1,189 @@
+2016-06-08 11:36:52 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/index.php/TK-API/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/htdocs/TK-API/index.php(41): require('/Applications/M...')
+#2 {main}
+2016-06-08 11:37:43 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/index.php/TK-API/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/htdocs/TK-API/index.php(41): require('/Applications/M...')
+#2 {main}
+2016-06-08 11:38:22 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/index.php/TK-API/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/htdocs/TK-API/index.php(41): require('/Applications/M...')
+#2 {main}
+2016-06-08 11:44:14 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/index.php/TK-API/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Applications/MAMP/htdocs/TK-API/index.php(41): require('/Applications/M...')
+#2 {main}
+2016-06-08 11:49:28 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:49:35 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:49:39 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:50:36 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:50:39 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:51:24 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:51:26 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:51:27 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:55:03 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:55:04 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:55:06 Error: [MissingControllerException] Controller class TK-APIController could not be found.
+Exception Attributes: array (
+  'class' => 'TK-APIController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/app/webroot/index.php/TK-API/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:55:55 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:56:05 Error: [MissingControllerException] Controller class SportclubsController could not be found.
+Exception Attributes: array (
+  'class' => 'SportclubsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 11:56:42 Error: Fatal Error (4): syntax error, unexpected 'extend' (T_STRING), expecting '{' in [/Applications/MAMP/htdocs/TK-API/app/Model/Sportclub.php, line 3]
+2016-06-08 11:56:42 Error: [FatalErrorException] syntax error, unexpected 'extend' (T_STRING), expecting '{'
+Request URL: /TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 11:57:30 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /TK-API/sportclubs.json?url=sportclubs.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/MAMP/htdocs/TK-API/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Model/Model.php(3626): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/TK-API/lib/Cake/Model/Model.php(3653): Model->setSource('sportclubs')
+#5 /Applications/MAMP/htdocs/TK-API/lib/Cake/Model/Model.php(3031): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/TK-API/lib/Cake/Model/Model.php(3003): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/TK-API/app/Controller/SportclubsController.php(7): Model->find('all')
+#8 [internal function]: SportclubsController->index()
+#9 /Applications/MAMP/htdocs/TK-API/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(SportclubsController), Array)
+#10 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SportclubsController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
