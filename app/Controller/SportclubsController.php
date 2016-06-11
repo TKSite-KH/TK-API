@@ -10,6 +10,15 @@ class SportclubsController extends AppController {
             '_serialize' => array('sportclubs')
         ));
     }
+
+    public function login(){
+        $sportclub = $this->Sportclub->login($this->data['user_email'], $this->data['user_password']);
+        $this->set(array(
+            'respond' => $sportclub,
+            '_serialize' => array('respond')
+        ));
+    }
+
     public function add() {
         $this->Sportclub->create();
         if ($this->Sportclub->save($this->request->data)) {

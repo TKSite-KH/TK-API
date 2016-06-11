@@ -1,34 +1,53 @@
 <?php
-/**
- * Application level Controller
- *
- * This file is application-wide controller file. You can put all
- * application-wide controller-related methods here.
- *
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.Controller
- * @since         CakePHP(tm) v 0.2.9
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-
 App::uses('Controller', 'Controller');
-
-/**
- * Application Controller
- *
- * Add your application-wide methods in the class below, your controllers
- * will inherit them.
- *
- * @package		app.Controller
- * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
- */
-class AppController extends Controller {
+class AppController extends Controller
+{
+   // public $uses = array('UserAccessToken');
+    public function beforeFilter ()
+    {
+        // if the url is error.json then let continue to controller errors with index action
+        if ($this->params->url=='errors.json')
+        {
+            return;
+        }
+        $request = getallheaders();
+        if (empty($request['secret_key']))
+        {
+            $this->redirect(array('controller' => 'errors.json'));
+        }
+        if ($request['secret_key'] != Configure::read('SECRET_KEY'))
+        {
+            $this->redirect(array('controller' => 'errors.json'));
+        }
+        // if the request is get method and correct secret key, let continue to process for client
+        if ($this->request->is('get'))
+        {
+            return;
+        }
+        // for add new customer, customer login, check customer social id, check email exist and account forgotpassword do not required access token
+        if ($this->request->is('post') &&
+            (
+                $this->params->url=='sportclubs/login.json'
+               // || $this->params->url=='stores/login.json'
+                //|| $this->params->url=='store_companies/login.json'
+                //|| $this->params->url=='customers.json'
+                //|| $this->params->url=='customers/login.json'
+                //|| $this->params->url=='customers/checkAccountBySocialId.json'
+                //|| $this->params->url=='customers/forgotPassword.json'
+                //|| $this->params->url=='customers/isEmailExist.json'
+            )
+        )
+        {
+            return;
+        }
+//        if ($this->request->is('post') && $this->UserAccessToken->isValidAccessToken($request['access_token'], $request['user_id']))
+//        {
+//            return;
+//        }
+//        if ($this->request->is('put') && $this->UserAccessToken->isValidAccessToken($request['access_token'], $request['user_id']))
+//        {
+//            return;
+//        }
+        $this->redirect(array('controller' => 'errors.json'));
+    }
 }
