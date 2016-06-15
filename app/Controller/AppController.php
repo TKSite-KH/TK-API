@@ -6,10 +6,8 @@ class AppController extends Controller
     public function beforeFilter ()
     {
        // $this->Auth->allow(array('login'));
-//        parent::beforeFilter();
-
+        parent::beforeFilter();
 //        $this->Security->csrfCheck = false;
-
 
         // if the url is error.json then let continue to controller errors with index action
         if ($this->params->url=='errors.json')
