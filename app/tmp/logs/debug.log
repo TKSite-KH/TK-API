@@ -1,0 +1,36 @@
+2016-06-15 16:49:08 Notice: Notice (8): Undefined offset: 1 in [/Applications/MAMP/htdocs/TK-API/lib/Cake/Network/CakeResponse.php, line 581]
+Trace:
+CakeResponse::header() - CORE/Cake/Network/CakeResponse.php, line 581
+Controller::header() - CORE/Cake/Controller/Controller.php, line 834
+AppController::beforeFilter() - APP/Controller/AppController.php, line 11
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-15 16:49:09 Notice: Notice (8): Undefined offset: 1 in [/Applications/MAMP/htdocs/TK-API/lib/Cake/Network/CakeResponse.php, line 581]
+Trace:
+CakeResponse::header() - CORE/Cake/Network/CakeResponse.php, line 581
+Controller::header() - CORE/Cake/Controller/Controller.php, line 834
+AppController::beforeFilter() - APP/Controller/AppController.php, line 11
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+
+2016-06-15 16:49:09 Notice: Notice (8): Undefined offset: 1 in [/Applications/MAMP/htdocs/TK-API/lib/Cake/Network/CakeResponse.php, line 581]
+Trace:
+CakeResponse::header() - CORE/Cake/Network/CakeResponse.php, line 581
+Controller::header() - CORE/Cake/Controller/Controller.php, line 834
+AppController::beforeFilter() - APP/Controller/AppController.php, line 11
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 243
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 677
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 189
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 111
+

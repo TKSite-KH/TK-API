@@ -1,21 +1,19 @@
 <?php
 App::uses('Controller', 'Controller');
+App::uses('Security', 'Utility');
 class AppController extends Controller
 {
    // public $uses = array('UserAccessToken');
     public function beforeFilter ()
     {
-       // $this->Auth->allow(array('login'));
-        parent::beforeFilter();
-//        $this->Security->csrfCheck = false;
 
-        // if the url is error.json then let continue to controller errors with index action
         if ($this->params->url=='errors.json')
         {
             return;
         }
         $request = getallheaders();
-        if (empty($request['secret_key']))
+
+        if ($request['secret_key'] == null)
         {
             $this->redirect(array('controller' => 'errors.json'));
         }

@@ -968,3 +968,350 @@ Stack Trace:
 #3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2016-06-15 15:25:32 Error: Fatal Error (1): Call to a member function allow() on null in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 8]
+2016-06-15 15:25:32 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 15:25:35 Error: Fatal Error (1): Call to a member function allow() on null in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 8]
+2016-06-15 15:25:35 Error: [FatalErrorException] Call to a member function allow() on null
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 16:10:36 Error: [MissingViewException] View file "Sportclubs/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sportclubs/index.ctp',
+)
+Request URL: /TK-API/sportclubs?url=sportclubs
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/TK-API/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SportclubsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-15 16:10:58 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-15 16:12:22 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-15 17:04:31 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:04:31 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:04:32 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:04:32 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:04:32 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:04:32 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:04:35 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:04:35 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:04:36 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:04:36 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:04:47 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:04:47 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:04:47 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:04:47 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:05:27 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:05:27 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-15 17:05:28 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 11]
+2016-06-15 17:05:28 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:47:55 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 10]
+2016-06-16 03:47:55 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:47:55 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 10]
+2016-06-16 03:47:55 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:47:59 Error: Fatal Error (4): syntax error, unexpected ')' in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 10]
+2016-06-16 03:47:59 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:48:13 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 19]
+2016-06-16 03:48:13 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:48:13 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 19]
+2016-06-16 03:48:13 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:48:18 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 19]
+2016-06-16 03:48:18 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:48:18 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 19]
+2016-06-16 03:48:18 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:48:23 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 19]
+2016-06-16 03:48:23 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:48:23 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 19]
+2016-06-16 03:48:23 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 19, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:55:35 Error: Fatal Error (1): Cannot access empty property in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 12]
+2016-06-16 03:55:35 Error: [FatalErrorException] Cannot access empty property
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/M...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/M...', 12, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/M...', 12, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:55:35 Error: Fatal Error (1): Cannot access empty property in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 12]
+2016-06-16 03:55:35 Error: [FatalErrorException] Cannot access empty property
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/M...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/M...', 12, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/M...', 12, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 03:55:40 Error: Fatal Error (1): Cannot access empty property in [/Applications/MAMP/htdocs/TK-API/app/Controller/AppController.php, line 12]
+2016-06-16 03:55:40 Error: [FatalErrorException] Cannot access empty property
+Request URL: /TK-API/sportclubs/login.json?url=sportclubs%2Flogin.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/M...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/M...', 12, Array)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/M...', 12, Array)
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-16 04:07:37 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-16 04:08:09 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-16 04:08:09 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-16 04:09:00 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-16 04:09:00 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-16 04:27:20 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-16 04:27:20 Error: [MissingControllerException] Controller class ErrorsController could not be found.
+Exception Attributes: array (
+  'class' => 'ErrorsController',
+  'plugin' => NULL,
+)
+Request URL: /TK-API/errors.json?url=errors.json
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-16 04:28:11 Error: [MissingViewException] View file "Sportclubs/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sportclubs/index.ctp',
+)
+Request URL: /TK-API/sportclubs?url=sportclubs
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/TK-API/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SportclubsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-16 04:28:17 Error: [MissingViewException] View file "Sportclubs/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Sportclubs/index.ctp',
+)
+Request URL: /TK-API/sportclubs?url=sportclubs
+Stack Trace:
+#0 /Applications/MAMP/htdocs/TK-API/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/TK-API/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/TK-API/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SportclubsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/TK-API/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

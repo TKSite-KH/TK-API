@@ -1,9 +1,12 @@
+
 <IfModule mod_rewrite.c>
+
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
-   Header set Access-Control-Allow-Methods: "POST, OPTIONS, GET"
-       Header set Access-Control-Allow-Origin "*"
+#   Header set Access-Control-Allow-Methods: "POST, OPTIONS, GET"
+       Header set Access-Control-Allow-Origin *
        Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, secret_key"
-       Header set Access-Control-Max-Age: 3600
+#       Header set Access-Control-Max-Age: 3600
 </IfModule>
+# Header set Access-Control-Allow-Origin *
