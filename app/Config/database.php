@@ -65,17 +65,28 @@
  * A key/value array of driver specific connection options.
  */
 class DATABASE_CONFIG {
+//
+//	public $default = array(
+//		'datasource' => 'Database/Mysql',
+//		'persistent' => false,
+//		'host' => 'localhost',
+//		'login' => 'root',
+//		'password' => 'root',
+//		'database' => 'tk_db',
+//		'prefix' => '',
+//		//'encoding' => 'utf8',
+//	);
 
-	public $default = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'tk_db',
-		'prefix' => '',
-		//'encoding' => 'utf8',
-	);
+    public $default = array(
+        'datasource' => 'Database/Mysql',
+        'persistent' => false,
+        'host' => 'localhost',
+        'login' => 'tarangkhmer_test',
+        'password' => 'root123',
+        'database' => 'tk_db_test',
+        'prefix' => '',
+        //'encoding' => 'utf8',
+    );
 
 	public $test = array(
 		'datasource' => 'Database/Mysql',
